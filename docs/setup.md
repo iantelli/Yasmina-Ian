@@ -20,7 +20,7 @@ TABLE OF CONTENTS
 <br>
 To start off, we’ll need to create somewhere to store our project files. Create a new empty folder anywhere on your PC.
 
-> *Note: Ensure that your folder name does not have any spaces, this could cause some problems in the following step.*
+:rotating_light: Ensure that your folder name does not have any spaces, this could cause some problems in the following step.*
 
 Next, we’ll open up Visual studio code and set the working directory to the folder we have just created.
 

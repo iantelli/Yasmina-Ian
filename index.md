@@ -2,12 +2,11 @@
 layout: default
 title: Introduction
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Introduction on concepts and conventions used in this document.
 permalink: /
 ---
 # Introduction
 - - - -
-
 
 In This document, we will guide you in using express.js frameworks. We will go through the basics of how to set up your development environment and create dynamic pages using JavaScript and node.js.
 
@@ -25,7 +24,7 @@ TABLE OF CONTENT
 * [Prerequisites](#prerequisites)
 * [Software Requirement](#software-requirement)
 * [Typographical Conventions](#typographical-conventions)
-* [Notes Guid](#notes-guid)
+* [Notes Guide](#notes-guide)
 
 
 - - - - 
@@ -34,7 +33,7 @@ TABLE OF CONTENT
 
 This document would be found useful for
 * web dev students and beginners who need extra guidance on managing their back end projects. 
-* intermediate developers who are interested in building web applications.
+* intermediate developers who are interested in building web application and extending their full stack knowledge
 
 
 {: .fs-6 .fw-300 }
@@ -67,11 +66,16 @@ Required knowledge in order to undrestand and follow the instructions smoothly.
 
 ### Typographical Conventions
 
-:warning: Under Construction
 
+Convention    | Typeface      | Examples 
+------------- | ------------- | -------------
+File names & Codes | `Code`  | `Node`, `install`, ```database.js```
+Key strokes   | **\[ Bold ]** | :warning: Content Cell
+Titles and names | _Italic_ |  :warning:Content Cell
 
-### Notes Guid
-
+- - - -
+### Notes Guide
+<br>
 :bulb: **Note**: It provides you with additional information.
 
 :rotating_light: **Warning**: Indicates That you hav to be more attentive and carefull toward certain steps. 

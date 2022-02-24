@@ -70,12 +70,11 @@ Required knowledge in order to undrestand and follow the instructions smoothly.
 
 Convention    | Typeface      | Examples 
 ------------- | ------------- | -------------
-File names & Codes | `Code`  | `Node`, `install`, ` database.js`
+File names & Codes | `Code`  | `Node`, `install`, `database.js`
 Key strokes   | **\[ Bold ]** | :warning: Content Cell
 Titles and names | _Italic_ |  :warning:Content Cell
 
 - - - -
-
 ### Notes Guid
 
 :bulb: **Note**: It provides you with additional information.

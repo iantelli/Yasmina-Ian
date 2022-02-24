@@ -76,6 +76,7 @@ Titles and names | _Italic_ |  :warning:Content Cell
 
 - - - -
 ### Notes Guid
+<p>&nbsp;</p>
 
 :bulb: **Note**: It provides you with additional information.
 

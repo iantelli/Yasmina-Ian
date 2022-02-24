@@ -76,8 +76,7 @@ Titles and names | _Italic_ |  :warning:Content Cell
 
 - - - -
 ### Notes Guid
-<p>&nbsp;</p>
-
+<br>
 :bulb: **Note**: It provides you with additional information.
 
 :rotating_light: **Warning**: Indicates That you hav to be more attentive and carefull toward certain steps. 

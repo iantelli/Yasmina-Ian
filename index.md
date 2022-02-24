@@ -6,9 +6,7 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 permalink: /
 ---
 # Introduction
-{: .fs-6 .fw-300 }
 
-{: .fs-9 }
 
 In This document, we will guide you in using express.js frameworks. We will go through the basics of how to set up your development environment and create dynamic pages using JavaScript and node.js.
 
@@ -17,7 +15,6 @@ In This document, we will guide you in using express.js frameworks. We will go t
 > **Express** is the minimal, flexible and most popular Node.js web application framework  which is specifically designed for building single-page, multi-page, and hybrid web applications. This framework provides a thin layer of fundamental web application features.
 > 
 > **EJS** stands for embedded java script and it is a language that lets you add javascript variables to your static page on the front end . 
-{: .fs-6 .fw-300 }
 
 - - - -
 
@@ -46,7 +43,8 @@ Required knowledge in order to undrestand and follow the instructions smooothly
 ### Software Requirement 
 
 1. **Runtime environment** of your choice but Visual Studio Code would be recommended since it is the runtime used in this instruction.
-2.**Node.js** Version 16 or later
+
+2. **Node.js** Version 16 or later
 
 
 {: .fs-6 .fw-300 }

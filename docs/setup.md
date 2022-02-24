@@ -46,13 +46,11 @@ npm install -S express ejs
 After the installation, there a couple steps that are necessary to create a working page
 1. Create a folder named **views** in the root folder
 2. Create a file named **index.ejs** in the *views* folder we just created
-3. Add the following contents into your *index.ejs* file:
+3. Add the following contents into your *index.ejs* file: `<h1>Hello World!</h1>`
 
-```
-<h1>Hello World!</h1>
-```
 
 ![Working directory after installing dependencies and creating views folder and index.ejs.](https://github.com/iantelli/Yasmina-Ian/blob/gh-pages/assets/images/directory.png?raw=true)
+
 *Working directory after installing dependencies and creating views folder and index.ejs.*
 
 - - - -

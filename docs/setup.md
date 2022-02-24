@@ -28,7 +28,7 @@ npm init -y
 
 This command will create the package.json file needed for our project. You should now see the json file appear on the left. 
 
-![package.json file](./assets/images/package.png)
+![package.json file](https://github.com/iantelli/Yasmina-Ian/blob/gh-pages/assets/images/package.png?raw=true)
 
 - - - -
 
@@ -51,7 +51,7 @@ After the installation, there a couple steps that are necessary to create a work
 <h1>Hello World!</h1>
 ```
 
-![Working directory after installing dependencies and creating views folder and index.ejs.](./assets/images/directory.png)
+![Working directory after installing dependencies and creating views folder and index.ejs.](https://github.com/iantelli/Yasmina-Ian/blob/gh-pages/assets/images/directory.png?raw=true)
 *Working directory after installing dependencies and creating views folder and index.ejs.*
 
 - - - -
@@ -76,7 +76,7 @@ app.listen(port, () => {
 })
 ```
 
-![Working directory after installing dependencies and creating server.js, views folder and index.ejs.](./assets/images/finalDirectory.png)
+![Working directory after installing dependencies and creating server.js, views folder and index.ejs.](https://github.com/iantelli/Yasmina-Ian/blob/gh-pages/assets/images/finalDirectory.png?raw=true)
 *Working directory after installing dependencies and creating server.js, views folder and index.ejs.*
 
 - - - -
@@ -85,6 +85,6 @@ app.listen(port, () => {
 
 Great work! If everything is working, our ejs page is now ready to view at [**http://localhost:8080/**](http://localhost:8080/)
 
-![image of web browser displaying index.ejs](./assets/images/helloWorld.png)
+![image of web browser displaying index.ejs](https://github.com/iantelli/Yasmina-Ian/blob/gh-pages/assets/images/helloWorld.png?raw=true)
 
 Congratulations! We’ve now finished the setup for our project. In the next step, we’ll be adding a fake json database to our project. 

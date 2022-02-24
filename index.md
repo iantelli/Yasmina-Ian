@@ -33,7 +33,7 @@ TABLE OF CONTENT
 ### Aimed Audience 
 
 This document would be found useful for
-* web dev students and beginners who need extra guidance on managing their back end projects 
+* web dev students and beginners who need extra guidance on managing their back end projects. 
 * intermediate developers who are interested in building web applications.
 
 
@@ -43,10 +43,10 @@ This document would be found useful for
 
 
 ### Prerequisites
-Required knowledge in order to undrestand and follow the instructions smoothly
+Required knowledge in order to undrestand and follow the instructions smoothly.
 * Basic computer literacy. A basic understanding of what a web server and the web frameworks are. 
 * Having a general knowledge of HTML, CSS and Javascript language accompanied by their coding concepts.
-* Being comfortable working with specific runtime environment and also using the command line
+* Being comfortable working with specific runtime environment and also using the command line.
 
 {: .fs-6 .fw-300 }
 
@@ -67,9 +67,13 @@ Required knowledge in order to undrestand and follow the instructions smoothly
 
 ### Typographical Conventions
 
-:warning: Under Construction 
+:warning: Under Construction
 
 
 ### Notes Guid
 
-:warning: Under Construction 
+:bulb: **Note**: It provides you with additional information.
+
+:rotating_light: **Warning**: Indicates That you hav to be more attentive and carefull toward certain steps. 
+
+

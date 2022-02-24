@@ -72,7 +72,7 @@ After the installation, there a couple steps that are necessary to create a work
 
 ![Working directory after installing dependencies and creating views folder and index.ejs.](https://github.com/iantelli/Yasmina-Ian/blob/gh-pages/assets/images/directory.png?raw=true)
 
-*Working directory after installing dependencies and creating views folder and index.ejs.*
+:bulb: *This is what the working directory should look like after installing dependencies and creating views folder and index.ejs.*
 
 - - - -
 
@@ -101,7 +101,7 @@ app.listen(port, () => {
 
 ![Working directory after installing dependencies and creating server.js, views folder and index.ejs.](https://github.com/iantelli/Yasmina-Ian/blob/gh-pages/assets/images/finalDirectory.png?raw=true)
 <br>
-*Working directory after installing dependencies and creating server.js, views folder and index.ejs.*
+:bulb: *This is what the working directory should look like after installing dependencies and creating server.js, views folder and index.ejs.*
 
 - - - -
 

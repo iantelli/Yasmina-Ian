@@ -24,7 +24,7 @@ TABLE OF CONTENT
 * [Prerequisites](#prerequisites)
 * [Software Requirement](#software-requirement)
 * [Typographical Conventions](#typographical-conventions)
-* [Notes Guid](#notes-guid)
+* [Notes Guide](#notes-guide)
 
 
 - - - - 
@@ -33,7 +33,7 @@ TABLE OF CONTENT
 
 This document would be found useful for
 * web dev students and beginners who need extra guidance on managing their back end projects. 
-* intermediate developers who are interested in building web applications.
+* intermediate developers who are interested in building web application and extending their full stack knowledge
 
 
 {: .fs-6 .fw-300 }
@@ -74,7 +74,7 @@ Key strokes   | **\[ Bold ]** | :warning: Content Cell
 Titles and names | _Italic_ |  :warning:Content Cell
 
 - - - -
-### Notes Guid
+### Notes Guide
 <br>
 :bulb: **Note**: It provides you with additional information.
 

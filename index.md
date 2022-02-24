@@ -2,12 +2,11 @@
 layout: default
 title: Introduction
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Introduction on concepts and conventions used in this document.
 permalink: /
 ---
 # Introduction
 - - - -
-
 
 In This document, we will guide you in using express.js frameworks. We will go through the basics of how to set up your development environment and create dynamic pages using JavaScript and node.js.
 

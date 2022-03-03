@@ -11,7 +11,7 @@ TABLE OF CONTENTS
 * [Error Handling](#404-error-page)
 * [Single Note](#single-note)
 * [Create Note](#create-note)
-* [Final Steps](#final-step)
+* [Final Steps](#css)
 
 - - - -
 

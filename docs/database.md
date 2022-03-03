@@ -16,8 +16,7 @@ Create a  new file in your main folder, in this instruction we will call it fake
 
 Copy the code underneath and paste it in your db file to create an array of objects consisting of  the notes and their attributes.
 
-```
-
+~~~
 let notes = [
     {
         id: 1,
@@ -34,20 +33,21 @@ let notes = [
         "Fusce id nibh convallis, fringilla risus ac, auctor dui. In tristique tellus ligula, sit amet ultricies velit ultrices nec. Suspendisse sit amet sapien quis purus congue vulputate in a velit. Praesent hendrerit ex in mauris rutrum, in semper nibh tincidunt. Aliquam dui ante, pulvinar non venenatis eu, venenatis eu orci. Nam dapibus viverra consectetur. Sed a tincidunt turpis. Aenean nec semper neque. Suspendisse potenti. Fusce convallis finibus justo, ac pharetra mauris porta quis. Phasellus ac blandit turpis, eget lacinia tortor. Donec eleifend tempus condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque rutrum et tellus quis egestas. Etiam metus dui, tincidunt ac blandit ut, fermentum quis mauris."
     },
 ];
-```
+~~~
 
 
 Perfect ! So now you have 2 notes in your database with unique ids. Now add yhois line to your database  after your array 
 
-```
+~~~
 let currentId = 3; `
-```
+~~~
 by adding the code below can store the value of the next note id and update every time you create a new object.
  For the next step we will add a few functions to return our desired result from the notes array of objects 
 
 
 1. Getting the note if the searched term is either in title or body of the note 
- ```
+
+~~~
  function getNotes(searchTerm) {
     if (!searchTerm) {
         return notes;
@@ -56,22 +56,22 @@ by adding the code below can store the value of the next note id and update ever
 }
 exports.getNotes = getNotes
 
-```
+~~~
 
 
 2.  Getting the note by passing the id as an argument. 
 
-```
+~~~
 function getNote(id) {
     return notes.find(note => note.id === id)
 }
 exports.getNote = getNote
 
-```
+~~~
 
 3.  Adding a note by only passing the text and auto generate rest of requirements
 
-```
+~~~
 function addNote(note) {
     notes.push({
         ...note,
@@ -82,17 +82,16 @@ function addNote(note) {
 }
 
 exports.addNote = addNote
-
-```
+~~~
 
 4.  Delete Note by passing the id number
 
-```
+~~~
 function deleteNote(id) {
     notes = notes.filter(note => note.id !== id);
 }
 exports.deleteNote = deleteNote
-```
+~~~
 
 That's it ! Now you have a Json database with your notes and its basic functions. Later on you can add more functions to this section to extend your flexibility in accessing  the data  but for now let's move on to server.js
 

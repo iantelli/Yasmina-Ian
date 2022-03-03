@@ -78,6 +78,6 @@ Titles and names | _Italic_ |  :warning:Content Cell
 <br>
 :bulb: **Note**: It provides you with additional information.
 
-:rotating_light: **Warning**: Indicates That you hav to be more attentive and carefull toward certain steps. 
+:rotating_light: **Warning**: Indicates That you have to be more attentive and carefull toward certain steps. 
 
 

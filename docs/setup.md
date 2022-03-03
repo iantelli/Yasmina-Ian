@@ -16,6 +16,8 @@ TABLE OF CONTENTS
 * [Server.ejs](#serverejs)
 * [Final Steps](#final-step)
 
+- - - -
+
 ## Working directory/Folder structure 
 <br>
 To start off, we’ll need to create somewhere to store our project files. Create a new empty folder anywhere on your PC.

@@ -14,7 +14,9 @@ TABLE OF CONTENTS
 * [Final Steps](#final-step)
 
 - - - -
+
 ## What is EJS?
+<br>
 EJS stands for embedded Javascript. Generally, HTML and CSS is sufficient for building websites that are static. But, when it comes to dynamic websites, EJS is super useful to use. 
 
 The syntax used to embed javascript into our html is done with these tags: 
@@ -26,7 +28,7 @@ The syntax used to embed javascript into our html is done with these tags:
 - - - -
 
 ## Display Notes
-
+<br>
 By using the functions we created in our database, we'll be making a page that displays a preview of all our notes. 
 
 1. Create a new file named notes.ejs in the views folder
@@ -71,7 +73,7 @@ By using the functions we created in our database, we'll be making a page that d
 - - - -
 
 ## 404 Error Page
-
+<br>
 We want to be able to handle our errors, so let's create a page that displays a 404 error. 
 
 1. Create a new file named note404.ejs in the views folder
@@ -100,7 +102,7 @@ We want to be able to handle our errors, so let's create a page that displays a 
 - - - -
 
 ## Single Note
-
+<br>
 Let's create a page that displays all the content of a single note when we click on the note. 
 
 1. Create a new file named singleNote.ejs in the views folder
@@ -137,7 +139,7 @@ Let's create a page that displays all the content of a single note when we click
 - - - -
 
 ## Create Note
-
+<br>
 Our final step will be to make our create note form. This step is entirely done with just html.  
 
 1. Create a new file named createNote.ejs in the views folder
@@ -176,7 +178,7 @@ Our final step will be to make our create note form. This step is entirely done 
 
 
 ## CSS
-
+<br>
 To make things look presentable, we'll add some basic css to our web page. 
 
 1. Create a new folder named public in the root folder
@@ -205,5 +207,9 @@ form {
 }
 ~~~
 
+<br>
 The final folder structure should look like this: 
+
+<br>
+
  ![image of web browser displaying index.ejs](https://github.com/iantelli/Yasmina-Ian/blob/gh-pages/assets/images/ejsDirectory.png?raw=true)

@@ -69,9 +69,9 @@ Required knowledge in order to undrestand and follow the instructions smoothly.
 
 Convention    | Typeface      | Examples 
 ------------- | ------------- | -------------
-File names & Codes | `Code`  | `Node`, `install`, ```database.js```
-Key strokes   | **\[ Bold ]** | :warning: Content Cell
-Titles and names | _Italic_ |  :warning:Content Cell
+Code Snippets| `Code`  | `<h1>Hello World</h1>`, `const express = require('express')`, ```app.get('/', (req, res)```
+Titles & Names   | **\[ Bold ]** | **EJS**, **server.js**, **package.json**
+Subtitles & Notes | _Italic_ |  _Img Alt Text_ 
 
 - - - -
 ### Notes Guide

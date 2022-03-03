@@ -54,6 +54,8 @@ by adding the code below can store the value of the next note id and update ever
     }
     return notes.filter(note => note.title.includes(searchTerm) || note.contents.includes(searchTerm))
 }
+exports.getNotes = getNotes
+
 ```
 
 
@@ -63,6 +65,8 @@ by adding the code below can store the value of the next note id and update ever
 function getNote(id) {
     return notes.find(note => note.id === id)
 }
+exports.getNote = getNote
+
 ```
 
 3.  Adding a note by only passing the text and auto generate rest of requirements
@@ -76,6 +80,9 @@ function addNote(note) {
     })
     currentId++
 }
+
+exports.addNote = addNote
+
 ```
 
 4.  Delete Note by passing the id number
@@ -84,12 +91,9 @@ function addNote(note) {
 function deleteNote(id) {
     notes = notes.filter(note => note.id !== id);
 }
+exports.deleteNote = deleteNote
 ```
 
 That's it ! Now you have a Json database with your notes and its basic functions. Later on you can add more functions to this section to extend your flexibility in accessing  the data  but for now let's move on to server.js
 
 
- :warning: **Do not  forget to export your database or only the required  modules so you would have access to them from the router.** 
-``` 
-export blah blah
-```

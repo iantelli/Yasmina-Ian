@@ -27,8 +27,8 @@ Here we added the express framework to  create a router object , the JSON databa
 
 ### Clarification:
 
-* **Parameters**: You can define multiple route parameters in a URL. We have the url of `/Notes/:Id `. Any number that goes in url instead of the `:id` parameter can get stored:
-*  ⚠️
+* **Parameters**: You can define multiple route parameters in a URL. We have the url of `/Notes/:Id `. Any number that goes in url instead of the `:id` parameter can get stored:  ` +req.params.id`,  `req.body`
+      `
 
 * **Integrate with ejs file:** If we we intend to use the variables of the router in our ejs file :
 

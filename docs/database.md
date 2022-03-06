@@ -39,7 +39,7 @@ let notes = [
 Perfect ! So now you have 2 notes in your database with unique ids. Now add yhois line to your database  after your array 
 
 ~~~js
-let currentId = 3; `
+let currentId = 3;
 ~~~
 by adding the code below can store the value of the next note id and update every time you create a new object.
  For the next step we will add a few functions to return our desired result from the notes array of objects 

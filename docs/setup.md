@@ -36,7 +36,7 @@ Next, we’ll open up Visual studio code and set the working directory to the fo
 The Package.json file is a must have for any project. It helps the user understand what your project is in just a few words. 
 1. Open a new terminal 
 2. Once the terminal is open, run the following command line: 
-```
+```zsh
 npm init -y
 ```
 

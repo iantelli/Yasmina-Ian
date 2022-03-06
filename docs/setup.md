@@ -85,7 +85,7 @@ Creating a basic local server that returns html to the user is very simple.
 1. Create a file called server.js in the root folder. 
 2. Add the following content to your server.js file: 
 
-```
+```js
 const express = require('express')
 const app = express()
 const port = 8080

@@ -67,7 +67,7 @@ After the installation, there a couple steps that are necessary to create a work
 2. Create a file named **index.ejs** in the *views* folder we just created
 3. Add the following contents into your *index.ejs* file:
 
-```
+```html
 <h1>Hello World!</h1>
 ```
 

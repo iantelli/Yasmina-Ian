@@ -14,7 +14,7 @@ The server.js file manages the application's endpoints and responds to the clien
 
 ### Setup
 Make sure you have all of these  requirements for creating before starting to code in server.js 
-```
+```js
 const express = require("express");
 const router = express.Router();
 let db = require("../fake-db");
@@ -39,7 +39,7 @@ Add these codes after your app.get(‘/’). at the end of these steps you will 
 1. The route will get your search term  and usig it to get the notes using gteNotes(searchTerm) function in database afterward it renders the notes.ejs and passes the data to it.
 app.get("/notes", (req, res) => {
 
-```
+```js
 app.get("/notes", (req, res) => {
     const searchTerm = req.query.searchTerm;
     const notes = database.getNotes(searchTerm);
@@ -55,7 +55,7 @@ app.get("/notes", (req, res) => {
  o  app.get("/notes/:id", (req, res)
 
 
-```
+```js
 app.get("/notes/:id", (req, res) => {
     const id = +req.params.id
     const note = database.getNote(id)
@@ -78,7 +78,7 @@ app.get("/createNote", (req, res)
 
 
 
-```
+```js
 app.get("/createNote", (req, res) => {
     res.render("createNote.ejs")
 })
@@ -87,7 +87,7 @@ app.get("/createNote", (req, res) => {
 4. Post request from the createNote form will execute this route which will retrieve the data from the form body and send them to the addNote in the database to create a new note.
  app.post("/notes", (req, res)
 
-```
+```js
 app.post("/notes", (req, res) => {
     const data = req.body
     database.addNote(data)
@@ -100,7 +100,7 @@ app.post("/notes", (req, res) => {
 5. This route, the same as the other post toute gets the notes id from the uri parameters. The difference is this time it passes the note to the delete function in db and then redirects to the homepage.
 .app.post("/notes/:id/delete", (req, res) => 
 
-```
+```js
 app.post("/notes/:id/delete", (req, res) =>{
     const id = +req.params.id
     database.deleteNote(id)

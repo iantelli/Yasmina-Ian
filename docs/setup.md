@@ -119,6 +119,9 @@ We're almost done our setup!
 node server.js
 ```
 
+- - - -
+## Conclusion
+<br>
 Great work! If everything is working, our ejs page is now ready to view at [**http://localhost:8080/**](http://localhost:8080/)
 
 ![image of web browser displaying index.ejs](https://github.com/iantelli/Yasmina-Ian/blob/gh-pages/assets/images/helloWorld.png?raw=true)

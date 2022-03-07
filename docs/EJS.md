@@ -213,3 +213,10 @@ The final folder structure should look like this:
 <br>
 
  ![image of web browser displaying index.ejs](https://github.com/iantelli/Yasmina-Ian/blob/gh-pages/assets/images/ejsDirectory.png?raw=true)
+
+- - - -
+
+
+## Conclusion
+<br>
+Congradulations! You have now finished building your EJS pages. Remember to view your progress at [**http://localhost:8080/**](http://localhost:8080/)

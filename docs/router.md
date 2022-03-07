@@ -21,16 +21,9 @@ let db = require("../fake-db");
 Let bodyParser = require(“body-parser”)
 ```
 
-Here we added the express framework to create a router object, the JSON database that we made earlier and a body parser to handle the post request’s data. Remember to export your router variable as well.
-
-
-
-### Clarification:
-
-* **Parameters**: You can define multiple route parameters in a URL. We have the URI of `/Notes/:Id `. Any number that goes in URI instead of the `: id` parameter can get stored:  `req.params.id`,  `req.body`.
-      `
-
-* **Integrate with ejs file:** If we we intend to use the variables of the router in our ejs file ⚠️
+Here we added the express framework to create a router object, the JSON database that we made earlier and a body parser to handle the post request’s data. Remember to export your router variable as well. Following steps will guide you in adding all the essential routers for a basic app.
+ 
+- - - -
 
 ### Steps
 Add these codes after your app.get(‘/’). at the end of these steps you will be able to search, read, create and delete the notes.
@@ -67,6 +60,8 @@ app.get("/notes/:id", (req, res) => {
 })
 ```
 
+💡 _You can define multiple route parameters in a URI. and store themm using `req.params.<parameter_name>`._  
+💡 _In order to pass the variables from **server.js** to **.ejs** file you have to put the variable inside the callback function. (Step2)_
 
 
 
@@ -88,7 +83,8 @@ app.post("/notes", (req, res) => {
 
     res.redirect("/notes")
 })
-```
+```  
+💡 _The `req.body` object let us to access the data from client as part of the post request._
 
 
 5. This route, the same as the other post route gets the notes id from the URI parameters. The difference is this time it passes the note to the delete function in DB and then redirects to the homepage.

@@ -9,12 +9,12 @@ nav_order: 5
 ### Overview
 This section is a walkthrough of how to create your own JSON database file and later on use the data in other parts of the web application. This document will store the data as JSON rather than tables and we use it for transmitting data in web applications.
 
-Json or javascript object notation is human - readable format for representing the data. This form is based on key-value data and arrays.
+💡 _Json or javascript object notation is based on key-value data and arrays._
 - - - -
 ### Let's start!
-Create a  new file in your main folder, in this instruction we will call it fakeDb. This file will get manipulated with arrays - objects and functions that help us access these objects and get the desired result.
+Create a  new file in your main folder, in this instruction, we will call it fakeDb. This file will get manipulated with arrays - objects and functions that help us access these objects and get the desired result.
 
-Copy the code underneath and paste it in your db file to create an array of objects consisting of  the notes and their attributes.
+Copy the code underneath and paste it in your db file to create an array of objects consisting of the notes and their attributes.
 
 ~~~js
 let notes = [
@@ -36,13 +36,13 @@ let notes = [
 ~~~
 
 
-Perfect ! So now you have 2 notes in your database with unique ids. Now add yhois line to your database  after your array 
+Perfect ! So now you have 2 notes in your database with unique ids. Now add yhois line to your database  after your array. 
 
 ~~~js
 let currentId = 3;
 ~~~
 by adding the code below can store the value of the next note id and update every time you create a new object.
- For the next step we will add a few functions to return our desired result from the notes array of objects 
+ For the next step we will add a few functions to return our desired result from the notes array of objects. 
 
 
 1. Getting the note if the searched term is either in title or body of the note 
@@ -69,7 +69,7 @@ exports.getNote = getNote
 
 ~~~
 
-3.  Adding a note by only passing the text and auto generate rest of requirements
+3.  Adding a note by only passing the text and auto generate rest of requirements.
 
 ~~~js
 function addNote(note) {
@@ -84,7 +84,7 @@ function addNote(note) {
 exports.addNote = addNote
 ~~~
 
-4.  Delete Note by passing the id number
+4.  Delete Note by passing the id number.
 
 ~~~js
 function deleteNote(id) {
@@ -93,6 +93,6 @@ function deleteNote(id) {
 exports.deleteNote = deleteNote
 ~~~
 
-That's it ! Now you have a Json database with your notes and its basic functions. Later on you can add more functions to this section to extend your flexibility in accessing  the data  but for now let's move on to server.js
+That's it! Now you have a JSON database with your notes and its basic functions. Later on, you can add more functions to this section to extend your flexibility in accessing  the data  but for now, let's move on to **server.js**.
 
 

@@ -9,7 +9,7 @@ permalink: /
 # Introduction
 - - - -
 
-In This document, we will guide you in using express.js frameworks. We will go through the basics of how to set up your development environment and create dynamic pages using JavaScript and node.js.
+In This document, we will guide you in using express.js frameworks. We will go through the basics of how to set up your development environment and create dynamic pages using  node.js and ejs (Embedded JavaScript).
 
 > [**Node.js**](https://nodejs.org/en/) is an open source, free and cross-platform runtime environment for developing server side and building  fast and scalable network applications easily.
 > 

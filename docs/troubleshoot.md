@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Setup
+title: Troubleshooting
 nav_order: 9
 ---
 

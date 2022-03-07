@@ -1,0 +1,21 @@
+---
+layout: default
+title: Glossary
+nav_order: 8
+---
+
+# Glossary
+- - - -
+
+- Working Directory  
+- terminal
+- root folder 
+- ejs
+- package.json
+- application endpoint 
+- route
+- application respond / clienr=rt request
+- Parameters
+- get request 
+- post request 
+- URI 

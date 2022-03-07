@@ -34,7 +34,7 @@ By using the functions we created in our database, we'll be making a page that d
 1. Create a new file named notes.ejs in the views folder
 2. Add the following content to your notes.ejs file:
 
-```ejs
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,7 +79,7 @@ We want to be able to handle our errors, so let's create a page that displays a 
 1. Create a new file named note404.ejs in the views folder
 2. Add the following content to your note404.ejs file:
 
-```ejs
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -108,7 +108,7 @@ Let's create a page that displays all the content of a single note when we click
 1. Create a new file named singleNote.ejs in the views folder
 2. Add the following content to your singleNote.ejs file:
 
-```ejs
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -145,7 +145,7 @@ Our final step will be to make our create note form. This step is entirely done 
 1. Create a new file named createNote.ejs in the views folder
 2. Add the following content to your createNote.ejs file:
 
-```ejs
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -34,7 +34,7 @@ By using the functions we created in our database, we'll be making a page that d
 1. Create a new file named notes.ejs in the views folder
 2. Add the following content to your notes.ejs file:
 
-~~~ejs
+```ejs
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,7 +68,7 @@ By using the functions we created in our database, we'll be making a page that d
 
 </body>
 </html>
-~~~
+```
 
 - - - -
 
@@ -79,7 +79,7 @@ We want to be able to handle our errors, so let's create a page that displays a 
 1. Create a new file named note404.ejs in the views folder
 2. Add the following content to your note404.ejs file:
 
-~~~ejs
+```ejs
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -95,7 +95,7 @@ We want to be able to handle our errors, so let's create a page that displays a 
     
 </body>
 </html>
-~~~
+```
 
 :bulb: *This is a good practice in web development.*
 
@@ -108,7 +108,7 @@ Let's create a page that displays all the content of a single note when we click
 1. Create a new file named singleNote.ejs in the views folder
 2. Add the following content to your singleNote.ejs file:
 
-~~~ejs
+```ejs
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -134,7 +134,7 @@ Let's create a page that displays all the content of a single note when we click
     
 </body>
 </html>
-~~~
+```
 
 - - - -
 
@@ -145,7 +145,7 @@ Our final step will be to make our create note form. This step is entirely done 
 1. Create a new file named createNote.ejs in the views folder
 2. Add the following content to your createNote.ejs file:
 
-~~~ejs
+```ejs
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -172,7 +172,7 @@ Our final step will be to make our create note form. This step is entirely done 
 
 </body>
 </html>
-~~~
+```
 
 - - - -
 
@@ -185,7 +185,7 @@ To make things look presentable, we'll add some basic css to our web page.
 2. Create a new file named style.css inside the public folder
 3. Add the following content to your style.css file: 
 
-~~~css
+```css
 body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 800px;
@@ -205,7 +205,7 @@ form {
     display:flex;
     flex-direction: column;
 }
-~~~
+```
 
 <br>
 The final folder structure should look like this: 
